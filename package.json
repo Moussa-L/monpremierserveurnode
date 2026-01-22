@@ -1,0 +1,28 @@
+{
+  "name": "monpremierserveurnode",
+  "version": "1.0.0",
+  "description": "Je crée mon premier node .js mon but est d'apprendre a gérer les requête http.",
+  "keywords": [
+    "serveur",
+    "node",
+    "javascript"
+  ],
+  "homepage": "https://github.com/Moussa-L/monpremierserveurnode#readme",
+  "bugs": {
+    "url": "https://github.com/Moussa-L/monpremierserveurnode/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moussa-L/monpremierserveurnode.git"
+  },
+  "license": "ISC",
+  "author": "MOUSSA Lidya",
+  "type": "commonjs",
+  "main": "serveur.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
