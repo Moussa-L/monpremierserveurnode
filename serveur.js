@@ -11,7 +11,7 @@ app.set('port',3000);
    // res.end('Bonjour je suis le serveur Node.js!');
  //}); 
 
-
+    
 
 
 // ici j'ai affaire a une fonction fléchée (function) qui prend deux paramètres req (requête) et res (réponse)
