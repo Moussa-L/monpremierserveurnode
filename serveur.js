@@ -4,8 +4,9 @@
 const http = require('http');
 const app = require('./app');
 // Maintenant, je crée un serveur web en utilisant la méthode createServer du module HTTP
+const numPort = 3003;
 
-app.set('port',3000);
+app.set('port', numPort);
 
 //app.use((req, res) => {
    // res.end('Bonjour je suis le serveur Node.js!');
@@ -25,7 +26,7 @@ const date = new Date();
 
 // Le serveur écoute sur le port 
 // Port signifie l'adresse locale de mon ordinateur
-server.listen(3000, () => {
-    console.log('Le serveur est démarré sur le port 3000');
+server.listen(numPort, () => {
+    console.log("Le serveur est démarré sur le port ", numPort);
     console.log( date.toLocaleString());
 });
