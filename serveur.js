@@ -8,12 +8,11 @@ const numPort = 3003;
 
 app.set('port', numPort);
 
-//app.use((req, res) => {
-   // res.end('Bonjour je suis le serveur Node.js!');
- //}); 
+app.use((req, res) => {
+res.end('Bonjour je suis le serveur Node.js!');
+}); 
 
     
-
 
 // ici j'ai affaire a une fonction fléchée (function) qui prend deux paramètres req (requête) et res (réponse)
 //const server = http.createServer((req, res) => {
